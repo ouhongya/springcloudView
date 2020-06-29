@@ -68,4 +68,44 @@ export default [{
     component: () =>
       import( /* webpackChunkName: "views" */ '@/views/work/process/leave/detail')
   }]
-}]
+},
+  {
+    path: '/info',
+    component: Layout,
+    redirect: '/info/index',
+    children: [{
+      path: 'index',
+      name: '个人信息',
+      meta: {
+        i18n: 'info'
+      },
+      component: () =>
+        import( /* webpackChunkName: "views" */ '@/views/user/info')
+    }]
+  },
+  {
+    path: '/his',
+    component: Layout,
+    redirect: '/his/index',
+    name:'his',
+    children: [
+      {
+        path: 'account',
+        component: () => import('@/views/his/account'),
+        name: 'account',
+        meta: { title: '费用结算'}
+      },
+      {
+        path: 'backfee',
+        component: () => import('@/views/his/backfee'),
+        name: 'backfee',
+        meta: { title: '退费专栏' }
+      },
+      {
+        path: 'charge',
+        component: () => import('@/views/his/charge'),
+        name: 'charge',
+        meta: { title: '门诊收费' }
+      }
+    ]
+  }]

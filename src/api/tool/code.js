@@ -1,7 +1,7 @@
 import request from '@/router/axios';
 
 export const getList = (current, size, params) => {
-  return request({
+   return request({
     url: '/api/blade-develop/code/list',
     method: 'get',
     params: {

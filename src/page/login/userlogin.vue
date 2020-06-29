@@ -60,7 +60,7 @@ export default {
       loginForm: {
         tenantId: "000000",
         username: "admin",
-        password: "admin",
+        password: "123456",
         type: "account"
       },
       loginRules: {

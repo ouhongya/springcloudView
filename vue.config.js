@@ -26,7 +26,7 @@ module.exports = {
     proxy: {
       '/api': {
         //本地服务接口地址
-        target: 'http://192.168.1.20:80',
+        target: 'http://192.168.1.41:80',
         //远程演示服务地址
         //target: 'https://saber.bladex.vip/api',
         ws: true,
