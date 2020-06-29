@@ -1,0 +1,184 @@
+//1.色彩-规范
+// 主色
+$base-color: #4090ff;
+//辅助色
+$help-color-first: #0755c3;
+$help-color-second: #1877fb;
+$help-color-third: #5e97e6;
+$help-color-fourth: #99c1f9;
+$help-color-fifth: #d7e5f9;
+$help-color-sixth: #f8fbff;
+//边框颜色
+$border-color: #dcdee2;
+//分隔线颜色
+$spilt-color: #e8eaec;
+// 背景色
+$page-bg: #f8f8f9;
+
+//文字颜色
+// 标题文字
+$font-color-title: #17233d;
+// 正文文字
+$font-color-centent: #515a6e;
+// 辅助文字
+$font-color-help: #9ea7b4;
+// 失效文字
+$font-color-disabled: #c3cbd6;
+
+//其他用色
+$orange-dark: #ff6000;
+$orange-base: #ff7e00;
+$orange-light: #ff9900;
+$green: #19be6b;
+$blue: #2db7f5;
+$pink: #ff5bee;
+$red: #ed4014;
+
+//2.文字尺寸-规范
+// 辅助-页码
+$font-pagination: 12px;
+//表格文字-内容，操作
+$font-table: 14px;
+//输入框文字-输入框
+$font-input: 16px;
+//一级标题文字
+$font-title: 18px;
+//大按钮文字-确定，取消
+$font-action-btn: 22px;
+//弹窗标题文字
+$font-modal-title: 24px;
+
+//3.按钮-规范
+
+//搜索按钮，新增按钮，确定按钮
+//normal状态
+$normal-bg: #4090ff;
+$normal-border: #4090ff;
+//hover,focus状态
+$hover-bg: #1877fb;
+$hover-border: #1877fb;
+//active,is-active状态
+$active-bg: #0755c3;
+$active-border: #0755c3;
+//disabled状态
+$disabled-bg: #4090ff4d;
+$disabled-border: #4090ff4d;
+
+//取消按钮
+//normal状态
+$normal-cancel-bg: #e9eaec;
+$normal-cancel-border: #e9eaec;
+//hover,focus状态
+$hover-cancel-bg: #d8d8d8;
+$hover-cancel-border: #d8d8d8;
+//active,is-active状态
+$active-cancel-bg: #dddee2;
+$active-cancel-border: #dddee2;
+//disabled状态
+$disabled-cancel-bg: #e9eaec4d;
+$disabled-cancel-border: #e9eaec4d;
+
+//特殊按钮
+//表单中的操作按钮
+//normal状态
+$normal-action-bg: #ff9900;
+$normal-action-border: #ff9900;
+//hover,focus状态
+$hover-action-bg: #ff7e00;
+$hover-action-border: #ff7e00;
+//active,is-active状态
+$active-action-bg: #ff6000;
+$active-action-border: #ff6000;
+//disabled状态
+$disabled-action-bg: #ff99004d;
+$disabled-action-border: #ff99004d;
+
+//表单中的取消按钮
+//normal状态
+$normal-table-cancel: #9fa7b3;
+//hover,focus状态
+$hover-table-cancel: #868f98;
+//active,is-active状态
+$active-table-cancel: #71787f;
+//disabled状态
+$disabled-table-cancel: #9fa7b34d;
+
+//修改
+//normal状态
+$normal-edit-color: #ff9900;
+//hover,focus状态
+$hover-edit-color: #ff7e00;
+//disabled状态
+$disabled-edit-color: #ff99004d;
+
+//删除
+//normal状态
+$normal-edit-color: #ed4014;
+//hover,focus状态
+$hover-edit-color: #e43103;
+//disabled状态
+$disabled-edit-color: #ed40144d;
+
+//未缴费
+//normal状态
+$no-fee-border: #ed4014;
+$no-fee-color: #ed4014;
+$no-fee-bg: #fadbca;
+
+//已缴费
+//normal状态
+$had-fee-border: #19be6b;
+$had-fee-color: #19be6b;
+$had-fee-bg: #d1ebdd;
+
+//4.输入框-规范
+
+//输入错误状态-公共
+$input-error-border: #ed4014;
+$input-error-color: #ed4014;
+//间距-公共（除特别定义外）
+$spacing: 20px;
+
+//下拉框
+//选中状态
+$select-bg: #5e97e64d;
+//禁用状态
+$select-disabled-color: #c3cbd6;
+
+//搜索框
+//搜索边距（搜索框前文字距左侧的距离）
+$search-ml: 30px; //左右
+$search-margin-both: 120px; //两个搜索框之间的间距
+//常规输入框
+//边距（输入框前文字距左侧的距离）
+$input-ml: 60px; //左右
+$input-margin-both: 72px; //两个输入框之间的间距
+
+//5.尺寸设计-规范
+
+//导航栏选中线条颜色-公共
+$active-lead-bg: #0755c3;
+//导航栏选中线条距文字的距离-公共
+$active-lead-mt: 10px; //上边距
+
+//一级导航栏
+//一级导航模块的间距
+$lead-both-margin: 100px;
+
+//二级导航栏
+//导航栏图标颜色
+$lead-icon-color: #4090ff;
+//图标距左侧
+$lead-icon-ml: 60px;
+//图标距右侧文字
+$lead-icon-mr: 15px;
+//二级导航模块的间距
+$lead-both-margin: 70px;
+
+//table尺寸
+//表头
+$thead-bg: #5497e64d;
+$thead-color: #4090ff;
+//表单间距
+$table-spacing: 2px;
+
